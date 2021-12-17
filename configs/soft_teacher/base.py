@@ -1,4 +1,4 @@
-mmdet_base = "../../thirdparty/mmdetection/configs/_base_"
+mmdet_base = "../../../mmdetection/configs/_base_"
 _base_ = [
     f"{mmdet_base}/models/faster_rcnn_r50_fpn.py",
     f"{mmdet_base}/datasets/coco_detection.py",
